@@ -1,3 +1,11 @@
+
+<style>
+r { color: Red ;}
+o { color: Orange ;}
+g { color: Green ;}
+b { color: blue ;}
+</style>
+
 # Tailwind CSS Project
 
   
@@ -59,8 +67,8 @@ Create a Tailwind CSS configuration file by running `npx tailwindcss init`.
 
 In your CSS file, import the Tailwind CSS directives: `@tailwind base; @tailwind components; @tailwind utilities;`.
 
-- Use the utility classes directly in your HTML elements <span style="color:blue">*(for Static Web Projects)*</span>. 
-- Use the utility classes directly in your HTML elements, or integrate Tailwind with your JavaScript framework e.g. React, Vue, Angular <span style="color:red">*(for Dynamic Web Projects)*</span>.
+- Use the utility classes directly in your HTML elements <o>*(for Static Web Projects)*</o>. 
+- Use the utility classes directly in your HTML elements, or integrate Tailwind with your JavaScript framework e.g. React, Vue, Angular <r>*(for Dynamic Web Projects)*</r>.
 
   
 
@@ -77,3 +85,5 @@ In your CSS file, import the Tailwind CSS directives: `@tailwind base; @tailwind
 - **Optimize for Production**: Use Tailwind's built-in purge feature to remove unused CSS classes from your production build, reducing the final CSS file size.
 
 - **Extend and Customize**: When necessary, use Tailwind's @apply directive to create your own custom utility classes or extend the default design system.
+
+
