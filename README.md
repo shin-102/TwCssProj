@@ -1,5 +1,4 @@
-# Tailwind CSS Project
-
+# $\textcolor{blue}{\textsf{Tailwind CSS Project}}$
   
 
 Tailwind CSS is a utility-first, low-level CSS framework that provides a set of pre-defined classes to style your HTML elements. Unlike traditional CSS frameworks like Bootstrap or Foundation, which provide pre-built components, Tailwind focuses on offering a comprehensive set of utility classes that you can directly apply to your HTML elements.
