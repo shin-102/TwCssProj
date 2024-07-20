@@ -2,9 +2,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tailwind Css Project</title>
 </head>
 <body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
   
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    header h1 {
+      margin: 0;
+    }
+  
+    header p {
+      margin-top: 0.5rem;
+    }
+  
+    main {
+      padding: 2rem;
+    }
+  
+    h2, h3 {
+      color: #333;
+    }
+  
+    pre {
+      background-color: #1d1d1d;
+      padding: 1rem;
+      overflow-x: auto;
+    }
+  
+    code {
+      font-family: monospace;
+      color: greenyellow;
+    }
+    code > a {
+      color: rgb(250, 74, 74);
+    }
+  </style>
+
+
+
+
+  <header>
+    <h1>Tailwind CSS demo</h1>
+    <p>let's train on twCss !</p>
+  </header>
+  <main>
+              
+      <h2>Use Cases</h2>
+      <p>Tailwind CSS is widely used for building custom user interfaces and design systems. It's particularly useful for:</p>
+      <ul>
+        <li>Rapid prototyping and iteration</li>
+        <li>Consistent and maintainable styling</li>
+        <li>Responsive and mobile-first design</li>
+        <li>Theming and customization</li>
+      </ul>
+      <p>By leveraging Tailwind's utility classes, developers can build complex and visually appealing UIs without the need for custom CSS, saving time and effort.</p>
+      
+      <article>
+        <h3>Using CLI</h3>
+        <p>To use Tailwind CSS with the command-line interface (CLI), you can install the Tailwind CLI tool and run the following commands:</p>
+        
+        <pre>
+          <code>
+            npm install -D tailwindcss
+            npx tailwindcss init
+          </code>
+        </pre>
+  
+        <p>This will create a Tailwind configuration file and allow you to start using Tailwind utility classes in your HTML.</p>  
+      </article>
+
+      <article>
+        
+        <h3>With Webpack (Vite)</h3>
+        <p>To use Tailwind CSS with a bundler like Webpack or Vite, you can install the required packages and configure your project:</p>
+        
+        <pre>
+          <code>
+            npm install -D tailwindcss postcss autoprefixer
+            npx tailwindcss init -p
+          </code>
+        </pre>
+        <p>This will create the necessary configuration files and allow you to import Tailwind CSS in your JavaScript or CSS files.</p>
+        
+      </article>
+
+      <article>
+
+        <h3>With CDN</h3>
+        <p>Tailwind CSS can also be used by including the CSS file from a CDN in your HTML:</p>
+        
+        <pre>
+          <code>
+            <a href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css</a>
+          </code>
+        </pre>
+        
+        <p>This is a quick and easy way to get started with Tailwind CSS, but it's not recommended for production use as it can increase your page load times.</p>
+
+      </article>
+  </main>
 </body>
 </html>
